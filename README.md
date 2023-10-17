@@ -171,8 +171,8 @@ An integer that sets the seed for randomness, ensuring reproducibility across di
 An integer representing the total time limit for AutoML training in seconds.
 - metric:
 A string that denotes the evaluation metric used for model training and optimization.
-Possible sklearn metrics are: accuracy, roc_auc, roc_auc_ovr, roc_auc_ovo,log_loss, mape, f1, micro_f1, macro_f1, ap 
-Currently built-in huggingface metrics are: accuracy, bertscore, bleu, bleurt, cer, chrf, code_eval, comet, competition_math, coval, cuad, f1, gleu, google_bleu, matthews_correlation, meteor, pearsonr, precision, recall, rouge, sacrebleu, sari, seqeval, spearmanr, ter, wer
+  - Possible sklearn metrics are: accuracy, roc_auc, roc_auc_ovr, roc_auc_ovo,log_loss, mape, f1, micro_f1, macro_f1, ap 
+  - Currently built-in huggingface metrics are: accuracy, bertscore, bleu, bleurt, cer, chrf, code_eval, comet, competition_math, coval, cuad, f1, gleu, google_bleu, matthews_correlation, meteor, pearsonr, precision, recall, rouge, sacrebleu, sari, seqeval, spearmanr, ter, wer
 - log_file_name:
 A string that denotes the name of the file that will be created to contain the logs.
 
