@@ -1,0 +1,7 @@
+{
+  "seed_value": 123,
+  "time_budget": 10,
+  "metric": "macro_f1",
+  "task": "classification",
+  "log_file_name": "flaml_log.log"
+}
